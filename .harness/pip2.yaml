@@ -18,6 +18,7 @@ pipeline:
           environment:
             environmentRef: testsetse
             deployToAll: false
+            infrastructureDefinitions: <+input>
           execution:
             steps:
               - step:
