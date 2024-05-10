@@ -16,14 +16,11 @@ pipeline:
             serviceRef: <+input>
             serviceInputs: <+input>
           environmentGroup:
-            envGroupRef: hell
+            envGroupRef: <+input>
             metadata:
               parallel: true
-            deployToAll: false
-            environments:
-              - environmentRef: hell3
-                deployToAll: true
-                infrastructureDefinitions: <+input>
+            deployToAll: <+input>
+            environments: <+input>
           execution:
             steps:
               - step:
