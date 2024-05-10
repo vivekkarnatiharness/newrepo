@@ -1,0 +1,7 @@
+environment:
+  name: hell3
+  identifier: hell3
+  accountId: rXUXvbFqRr2XwcjBu3Oq-Q
+  orgIdentifier: Ng_Pipelines_K8s_Organisations
+  projectIdentifier: ServiceV2Ramya
+  type: PreProduction
